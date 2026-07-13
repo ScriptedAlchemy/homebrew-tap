@@ -1,14 +1,14 @@
 class Tracedecay < Formula
   desc "Code intelligence tool that builds semantic knowledge graphs from source code"
   homepage "https://github.com/ScriptedAlchemy/tracedecay"
-  url "https://github.com/ScriptedAlchemy/tracedecay/archive/refs/tags/v0.0.64.tar.gz"
-  sha256 "f1b3a7324dd95d565ac60a2b54d2e4e0618a312ce6cc91944ea0e37fca46c071"
+  url "https://github.com/ScriptedAlchemy/tracedecay/archive/refs/tags/v0.0.65.tar.gz"
+  sha256 "d41a6a70cf76ca0ab3c7ecbfa3ffa542adcbf04d87f9011fa75cc85c0ace3c65"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/ScriptedAlchemy/tracedecay/releases/download/v0.0.64"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma: "6d642695fe1224bd246d2b56b547389f42d4c353f5b781d516fc16599095d637"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "76fb91a64b978f092d365474943271156eb489fa6363ba2f680d9ea6818f9de1"
+    root_url "https://github.com/ScriptedAlchemy/tracedecay/releases/download/v0.0.65"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "9a46dc7aa245cf433bf0209e99e4e02c6d1d2d4185a97a1a2594cde78ada8e11"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "b728cf60add2b3f45f99f8853b764b454822013dacde8e3726d8cc3a5ccf527c"
   end
 
   depends_on "rust" => :build
